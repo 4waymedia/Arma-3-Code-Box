@@ -1,0 +1,40 @@
+Reference:
+https://www.youtube.com/watch?v=K64LQyeA0lU
+
+Objects required:
+
+Variable Name: respawn_west
+Varialbe Name: respawn_vehicle_west
+
+//      variable name of vehicle   [seconds delay, max spawns]
+Vehicle INIT: varName respawnVehicle [5,100];
+
+Required in description.ext //
+
+// Respawn type, see the table below
+// https://community.bistudio.com/wiki/Arma_3_Respawn
+respawn = 3;
+
+// Delay in seconds before playable unit respawns.
+respawnDelay = 10;
+
+// Delay in seconds before vehicle respawns.
+respawnVehicleDelay = 60;
+
+// 0 to disable the score table (it can still be opened manually by pressing 'P' key).
+respawnDialog = 0;
+
+// Respawn templates from CfgRespawnTemplates. You can combine any number of them together.
+respawnTemplates[] = {"Revive", "MenuPosition"};
+
+// Side specific respawn templates. When undefined, general respawnTemplates are used instead.
+//respawnTemplatesEast[] = {"Counter"};
+
+// 1 to respawn player when he joins the game. Available only for INSTANT and BASE respawn types.
+respawnOnStart = -1;
+
+// When 1, the score table contains score of all playable units as opposed to players only.
+aikills = 1;
+
+// Respawn button in the pause menu 1- enabled, 0-disabled
+respawnButton = 1;

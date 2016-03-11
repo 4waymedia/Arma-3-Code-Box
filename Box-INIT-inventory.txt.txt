@@ -1,0 +1,37 @@
+You can copy/paste the following into a init box for a ammo box
+
+//Example
+clearMagazineCargo this;
+clearItemCargo this;
+clearWeaponCargo this;
+this addItemCargo ["U_B_GhillieSuit",2];
+this addItemCargo ["U_B_FullGhillie_ard",2];
+this addItemCargo ["H_HelmetB_camo",2];
+this addItemCargo ["H_Booniehat_dirty",2];
+this addItemCargo ["H_Beret_grn",2];
+
+
+//Clearing the box
+clearMagazineCargo this;
+clearItemCargo this;
+clearWeaponCargo this;
+
+// Ghillie Suits
+U_B_GhillieSuit
+U_B_FullGhillie_ard
+
+// Head Gear
+H_HelmetB_camo
+H_Booniehat_dirty
+H_Beret_grn
+
+clearMagazineCargo this;
+clearItemCargo this;
+clearWeaponCargo this;
+
+this addItemCargo ["U_B_GhillieSuit",2];
+this addItemCargo ["U_B_FullGhillie_ard",2];
+
+this addItemCargo ["H_HelmetB_camo",2];
+this addItemCargo ["H_Booniehat_dirty",2];
+this addItemCargo ["H_Beret_grn",2];
